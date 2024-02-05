@@ -1,0 +1,45 @@
+html,body{
+ height: 100%;
+ width: 100%;
+}
+
+.box{
+    width:300px;
+    height: 250px;
+    background-image:url("cococola.png") ;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    padding: 10px;
+    
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+    border:1px solid black;
+    padding:10px;
+    background-color: lightblue;
+}
+
+/*visited link*/
+a:visited{
+    /*background color:aqua*/
+
+}
+/*active link*/
+a:active{
+    background-color: brown;
+
+}
+/**/
+a:hover{
+    padding:15px;
+    background-color: lightslategray;
+    color:white;
+}
+
+
+
+
+
+
